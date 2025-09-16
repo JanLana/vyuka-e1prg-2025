@@ -1,4 +1,4 @@
-package cz.gyarab.prg.e1;
+package cz.gyarab.prg.e1.s1;
 
 public class Hvezdicka {
     public static void main(String[] args) {
