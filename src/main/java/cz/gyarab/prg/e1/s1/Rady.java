@@ -1,4 +1,4 @@
-package cz.gyarab.prg.e1;
+package cz.gyarab.prg.e1.s1;
 
 public class Rady {
     public static void main(String[] args) {
