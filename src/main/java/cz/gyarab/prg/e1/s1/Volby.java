@@ -18,16 +18,34 @@ public class Volby {
         System.out.println("Hlasu pro stanu D:");
         int hlasuD =  sc.nextInt();
 
-        //int celkemHlasu = ....;
-        //int hlasuNaMandat = ....;
+        if (hlasuA >= hlasuB && hlasuA >= hlasuC && hlasuA >= hlasuD) {
+            System.out.println("Vyhrala A.");
+        } else if (hlasuB >= hlasuC && hlasuB >= hlasuD) {
+            System.out.println("Vyhrala B.");
+        } else if (hlasuC >= hlasuD) {
+            System.out.println("Vyhrala C.");
+        } else {
+            System.out.println("Vyhrala D.");
+        }
 
-        int poslancuA = 0;
+        int celkemHlasu = hlasuA + hlasuB + hlasuC + hlasuD;
+        int volebniCislo = (celkemHlasu + 19) / 20;
 
+        System.out.println("Celkem hlasu: " + celkemHlasu);
+        System.out.println("Volebni cislo: " + volebniCislo);
 
-        System.out.println("Poslancu A:" + poslancuA);
-        //....
+        int pocetKreselA =  hlasuA / volebniCislo;
+        int pocetKreselB =  hlasuB / volebniCislo;
+        int pocetKreselC =  hlasuC / volebniCislo;
+        int pocetKreselD =  hlasuD / volebniCislo;
 
+        System.out.println("A: " + pocetKreselA);
+        System.out.println("B: " + pocetKreselB);
+        System.out.println("C: " + pocetKreselC);
+        System.out.println("D: " + pocetKreselD);
 
+        int celkemKresel = pocetKreselA + pocetKreselB + pocetKreselC + pocetKreselD;
 
+        System.out.println("Celkem rozdeleno mandatu: " +  celkemKresel);
     }
 }
