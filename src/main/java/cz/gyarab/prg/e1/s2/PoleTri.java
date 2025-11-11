@@ -4,6 +4,9 @@ package cz.gyarab.prg.e1.s2;
 import java.util.Random;
 
 public class PoleTri {
+
+
+
     public static void main(String[] args) {
         Random r = new Random();
 
