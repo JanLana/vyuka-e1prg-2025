@@ -3,6 +3,7 @@ package cz.gyarab.prg.e1.s1;
 import java.util.Random;
 
 public class Pole13 {
+
     public static void main(String[] args) {
         Random r = new Random();
 
