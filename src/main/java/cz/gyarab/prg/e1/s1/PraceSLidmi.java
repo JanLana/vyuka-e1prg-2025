@@ -31,7 +31,7 @@ public class PraceSLidmi {
         zKlavesnice.vek = sc.nextInt();
          */
 
-        zKlavesnice = vytvorCloveka(sc.next(), sc.next(), sc.nextInt())
+        zKlavesnice = vytvorCloveka(sc.next(), sc.next(), sc.nextInt());
         vypisCloveka(zKlavesnice);
 
         Clovek ja;
