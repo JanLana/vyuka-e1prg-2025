@@ -22,7 +22,7 @@ public class Politik extends Clovek {
         arr[1] = new Politik("Karel", "Havlicek", 56, "ministr prumyslu");
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i].vypisSePolitik();
+            //arr[i].vypisSePolitik();
         }
 
 
