@@ -1,6 +1,5 @@
 package cz.gyarab.prg.e1.s2;
 
-import javax.xml.transform.Source;
 import java.util.Scanner;
 
 public class Volby {
