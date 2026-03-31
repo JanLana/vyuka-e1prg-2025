@@ -15,4 +15,9 @@ public class Ctverec extends Tvar implements UmiSeVypsat {
     public void vypisSe() {
         System.out.println("jsem ctverec velikost " + plocha());
     }
+
+    @Override
+    public int vratPet() {
+        return 0;
+    }
 }

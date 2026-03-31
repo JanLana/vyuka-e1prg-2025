@@ -1,6 +1,10 @@
 package cz.gyarab.prg.e1.s2.zverinec;
 
-public class Kocka extends Zvire  {
+import cz.gyarab.prg.e1.s2.tvary.UmiSeVypsat;
+
+import java.io.Serializable;
+
+public class Kocka extends Zvire implements UmiSeVypsat {
     public Kocka(String jmeno) {
         super(jmeno);
     }
@@ -12,5 +16,9 @@ public class Kocka extends Zvire  {
     @Override
     public int cenaZradla() {
         return 1000;
+    }
+
+    public void vypisSe() {
+        System.out.println("Jsem kocka " + jmeno);
     }
 }

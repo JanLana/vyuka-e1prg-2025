@@ -20,7 +20,7 @@ public class Main {
 
         UmiSeVypsat[] arr2 = new UmiSeVypsat[10];
         arr2[0] = new Ctverec(10);
-        arr2[1] = new Kocka();
+        //arr2[1] = new Kocka();
 
 
 
