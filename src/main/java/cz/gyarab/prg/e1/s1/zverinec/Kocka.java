@@ -13,6 +13,7 @@ public class Kocka extends Zvire  {
         System.out.println("jsem kocka a delam " + delaZvuk());
     }
 
+    @Override
     public int vratPet() {
         return 0;
     }

@@ -15,7 +15,7 @@ public class Main {
                 new Pes("alik"),
                 new Pes("vorech"),
                 new Pes("aaa"),
-                new Kocka("mica"),
+                //new Kocka("mica"),
                 new Uzovka(),
                 new Rybicka(),
                 new Rybicka(),

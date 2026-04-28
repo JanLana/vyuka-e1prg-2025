@@ -14,4 +14,9 @@ public class Ctverec extends Tvar implements UmiSeVypsat {
     public void vypisSe() {
         System.out.println("Jsem ctverec " + hranaA + " x " + hranaA);
     }
+
+    @Override
+    public String vypisJakoString() {
+        return "";
+    }
 }
