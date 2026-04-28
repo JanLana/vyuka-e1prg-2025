@@ -11,4 +11,6 @@ abstract public class Zvire {
         System.out.println("Jmeno: " + jmeno);
         System.out.println("Dela zvuk: " + delaZvuk());
     }
+
+    public int vratPet() { return 5; }
 }

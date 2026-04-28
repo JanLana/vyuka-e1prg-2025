@@ -10,26 +10,23 @@ public class PrevodCisla {
 
         int sum = 0;
 
-        while(true) {
+        while (true) {
             int v;
 
-            vstup = sc.next();
             try {
-                v = prevodnik(vstup);
-            } catch (NumberFormatException e) {
-                v = 0;
+                vstup = sc.next();
+                try {
+                    v = prevodnik(vstup);
+                } catch (NumberFormatException e) {
+                    v = 0;
+                }
+                sum = sum + v;
+                System.out.println("soucet: " + sum);
+
+            } catch (Exception ex) {
+                System.out.println("spatny vstup");
             }
-            sum = sum + v;
-            System.out.println("soucet: " + sum);
         }
-            int v = prevodnik(vstup);
-            System.out.println(v+1);
-
-        } catch() {
-            System.out.println("spatny vstup");
-        }
-
- */
     }
 
     public static int prevodnik(String vstup) {
