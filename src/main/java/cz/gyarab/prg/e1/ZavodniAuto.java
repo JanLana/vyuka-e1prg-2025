@@ -8,6 +8,7 @@ public class ZavodniAuto implements Comparable<ZavodniAuto> {
     String typAuta;
     String barvaAuta;
 
+    //TODO: jeste jmeno ridice
     public ZavodniAuto(int zavodniCislo, String typAuta, String barvaAuta) {
         this.zavodniCislo = zavodniCislo;
         this.typAuta = typAuta;
@@ -51,6 +52,7 @@ public class ZavodniAuto implements Comparable<ZavodniAuto> {
 
     @Override
     public int compareTo(ZavodniAuto o) {
+        // FIXME: pravit
         /*
         if (zavodniCislo > o.zavodniCislo) {
             return 1;
