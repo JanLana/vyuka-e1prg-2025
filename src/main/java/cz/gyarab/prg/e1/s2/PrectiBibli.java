@@ -3,7 +3,6 @@ package cz.gyarab.prg.e1.s2;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class PrectiBibli {
